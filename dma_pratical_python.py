@@ -31,7 +31,7 @@ input_func = obj.input()
 unique_func = obj.unique(input_func)
 output_func = obj.output(unique_func)
 
-print("Enter the numeber : ")
+print("Finding the element is present in set or not : ")
 number = int(input("Enter the number : "))
 if obj.ismember(unique_func, number) == 1:
     print(True)
